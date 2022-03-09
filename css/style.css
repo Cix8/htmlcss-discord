@@ -31,10 +31,6 @@ a:hover {
     text-decoration: underline;
 }
 
-.btn-large i {
-    margin-right: 0.5em;
-}
-
 .float-l {
     float: left;
 }
@@ -51,7 +47,7 @@ header {
     background-color: #3161e0;
 }
 
-.menu {
+.general-container {
     width: 80%;
     margin: 0 auto;
 }
@@ -95,6 +91,11 @@ header {
     margin: 0 1em;
     padding: 1.3em 2em;
     border-radius: 40px;
+    font-size: 1.2em;
+}
+
+.btn-large i {
+    margin-right: 0.5em;
 }
 
 .banner {
@@ -110,21 +111,44 @@ header {
     margin: 0 auto;
 }
 
-.banner-text {
+.text {
     text-align: center;
     line-height: 2.5em;
 }
 
-.banner-text h2 {
+.text h2 {
     font-size: 4em;
     margin-bottom: 1em;
 }
 
-.banner-text p {
+.text p {
     font-size: 1.5em;
     margin-bottom: 2em;
 }
 
 .buttons-container {
     text-align: center;
+}
+
+.container {
+    padding: 8em 0;
+    width: 50%;
+}
+
+.sub-container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.sub-container h2 {
+    margin: .5em 0;
+    font-size: 4em;
+}
+
+.sub-container p {
+    font-size: 1.5em;
+}
+
+main .bg-color-container:nth-child(even) {
+    background-color: #f6f6f6;
 }
