@@ -177,6 +177,7 @@ main .bg-color-container:nth-child(even) {
     color: white;
     background-color: #003aff;
     overflow: hidden;
+    line-height: normal;
 }
 
 .btn-blue::before {
