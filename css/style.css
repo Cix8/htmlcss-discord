@@ -17,7 +17,7 @@ ul {
     list-style: none;
 }
 
-li {
+.menu-list li {
     display: inline-block;
     margin: 0 1em;
 }
@@ -25,6 +25,7 @@ li {
 a {
     color: inherit;
     text-decoration: none;
+    font-weight: bold;
 }
 
 a:hover {
@@ -188,3 +189,77 @@ main .bg-color-container:nth-child(even) {
     height: 100%;
     background-color: rgba(255, 255, 255, .6);
 }
+
+.footer {
+    padding: 6em 0;
+    background-color: #23272a;
+}
+
+.f-col-left {
+    width: 20%;
+}
+
+.f-list-container {
+    width: 80%;
+}
+
+.f-col-left h4 {
+    font-size: 2em;
+    color: #7188d9;
+    margin-bottom: 1em;
+}
+
+.language {
+    color: white;
+    margin-bottom: 1em;
+}
+
+.language img {
+    width: 1.5em;
+    vertical-align: top;
+}
+
+.icons-container {
+    color: white;
+}
+
+.icons-container i {
+    margin-right: 1em;
+}
+
+.f-list-container ul {
+    display: inline-block;
+    margin: 0 2em 1em 5em;
+    vertical-align: top;
+}
+
+.f-list-container li {
+    margin: 1em 0;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+}
+
+.f-list-container li:first-child {
+    margin: 0;
+    color: #7188d9;
+}
+
+hr {
+    border: 1px solid #3e4969;
+}
+
+.footer-nav {
+    height: 80px;
+    padding: 1em 0;
+    line-height: calc(80px - 2em);
+}
+
+.float-r {
+    float: right;
+}
+
+.float-r a {
+    vertical-align: middle;
+}
+
