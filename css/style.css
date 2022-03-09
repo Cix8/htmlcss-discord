@@ -32,6 +32,11 @@ a:hover {
     text-decoration: underline;
 }
 
+.btn {
+    display: inline-block;
+    line-height: normal;
+}
+
 .float-l {
     float: left;
 }
@@ -172,12 +177,10 @@ main .bg-color-container:nth-child(even) {
 }
 
 .btn-blue {
-    display: inline-block;
     position: relative;
     color: white;
     background-color: #003aff;
     overflow: hidden;
-    line-height: normal;
 }
 
 .btn-blue::before {
